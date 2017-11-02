@@ -190,6 +190,8 @@ OpenSSL会被安装至/usr并替换掉之前的版本。
 >确保上述ln的命令路径正确。 `/usr/local/bin` 的优先级别高于
 >   `/usr/bin`，因此，会用brew安装的openssl替换到系统自带的openssl
 
+资料来源：https://apple.stackexchange.com/questions/126830/how-to-upgrade-openssl-in-os-x
+
 ### OS X中临时文件夹的读取存储权限
 
 在Mac OS中，一般用户的读写权限是受到限制的，这样下列代码就无法得到预期的效果：

@@ -1,6 +1,6 @@
 # Alferd
 
-Alferd是一款提高效率的工具，调用快捷键为`option+space`，除了默认功能外，利用其提供的workflow，能大大减少鼠标点击次数。
+Alferd是一款提高效率的工具，调用快捷键为`option+space`，除了默认功能外，利用其提供的workflow，能大大减少鼠标点击次数，所以有必要培养使用Alferd的使用习惯，能用Alferd办的事就不要点鼠标，这样非常有助于心流的保持。
 
 ## 常用基础功能
 
@@ -43,4 +43,6 @@ tf: Terminal -> Finder
 
 使用有道智云，进行中英文互译，回车后查询的结果放入到剪贴板。Triggers：yd
 
+### dash
 
+dash是一款管理技术文档的软件，能将众多技术手册下载到本地进行阅读和搜索，它还能很好得和众多软件进行整合，比如Alferd。在Alferd中的用法有两种：一种为`dash html:form`，这种形式不需要安装workflow；另一种`html form`需要安装workflow后才能使用。

@@ -1,5 +1,3 @@
-# macos
+# Mac OS
 
-MacOS学习笔记
-
-阅读地址：http://yangjh.gitee.io/macos
+记录使用Mac OS中遇到的问题，发布于：http://yangjh.gitee.io/macos
