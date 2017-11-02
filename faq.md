@@ -179,6 +179,17 @@ Sublime Text 的Mac版本中，一些快捷键与windows版本有所区别，可
 
 OpenSSL会被安装至/usr并替换掉之前的版本。
 
+>2017-11-2更新：在Mac OS的新版本（El Capitan）中，使用了`System Integrity Protection`的技术，使得`/usr/include`目录无法写入内容，因此上述办法无法实施。因此，更好的办法是使用homebrew安装openssl。
+>``` sh
+>brew update
+>brew install openssl 或者 brew upgrade openssl
+>ln -s /usr/local/Cellar/openssl/1.0.1g/bin/openssl /usr/local/bin/openssl
+>hash -r
+>```
+>
+>确保上述ln的命令路径正确。 `/usr/local/bin` 的优先级别高于
+>   `/usr/bin`，因此，会用brew安装的openssl替换到系统自带的openssl
+
 ### OS X中临时文件夹的读取存储权限
 
 在Mac OS中，一般用户的读写权限是受到限制的，这样下列代码就无法得到预期的效果：
