@@ -28,6 +28,22 @@ vi ~/.bash.profile
 export PATH="/usr/local/bin:$PATH"
 ```
 
+### 安装cask扩展
+
+brew 通过安装cask扩展，可以安装具有图形界面的软件，如chrome、firefox等等。先安装cask扩展：
+
+```sh
+brew tap caskroom/cask
+```
+
+之后，使用如下风格的命令可以安装MAC APP了：
+
+```sh
+brew cask install google-chrome
+brew cask install virtualbox
+brew cask install vagrant
+```
+
 ## 基本用法
 
 ```sh
