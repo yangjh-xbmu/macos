@@ -49,21 +49,25 @@ brew cask install vagrant
 ```sh
 brew install xxx
 ```
+
 安装xxx软件
 
 ```sh
 brew uninstall xxx
 ```
+
 卸载xxx软件
 
 ```sh
 brew upgrade xxx
 ```
+
 更新xxx软件
 
 ```sh
 brew search xxx
 ```
+
 搜索xxx软件
 
 ## 常用软件
