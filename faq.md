@@ -219,4 +219,4 @@ tempnam(sys_get_temp_dir(),'test');
 
 用棉签或者软毛牙刷轻轻移除碎屑。
 
-一般情况下使用这两种处理办法就能消除故障。其他故障原因及处理办法，参见[苹果官网](https://support.apple.com/zh-cn/HT203207)
+一般情况下使用这两种处理办法就能消除故障。其他故障原因及处理办法，参见[苹果官网](https://support.apple.com/zh-cn/HT203207)。
