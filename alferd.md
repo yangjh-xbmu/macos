@@ -85,5 +85,5 @@ dash是一款管理技术文档的软件，能将众多技术手册下载到本�
 
 ## 参考资料
 
-1.[Alferd官方文档](https://www.alfredapp.com/help/features/)
-1.[workflow库](http://www.packal.org/)
+1. [Alferd官方文档](https://www.alfredapp.com/help/features/)
+1. [workflow库](http://www.packal.org/)
