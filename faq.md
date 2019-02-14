@@ -6,6 +6,10 @@
 
 快捷键中常用符号⌘（command）、⌥（option）、⇧（shift）、⇪（caps lock）、⌃（control）、↩（return）、⌅（enter）。
 
+### 如何记忆快捷键
+
+[Cheatsheet软件](https://www.mediaatelier.com/CheatSheet/)能方便地罗列出当前软件的快捷键，为快捷键的使用提供了便利。
+
 ### 如何剪切文件
 
 `command + option + v`
