@@ -85,6 +85,14 @@ tf: Terminal -> Finder
 
 dash是一款管理技术文档的软件，能将众多技术手册下载到本地进行阅读和搜索，它还能很好得和众多软件进行整合，比如Alferd。在Alferd中的用法有两种：一种为`dash html:form`，这种形式不需要安装workflow；另一种`html form`需要安装workflow后才能使用。
 
+### markdown-image-alfred
+
+复制本地图片或截图，快速上传图片到七牛云空间，并获取Markdown格式的图片地址。
+
+[下载地址](https://github.com/kaito-kidd/markdown-image-alfred/releases)
+
+下载后首先在alferd中设置快捷键（比如：option + command + v）。第一次运行时需要设置七牛的相关参数，该流程会自动打开配置文件，用户填入配置即可，七牛云的配置信息都在文件中有详细说明。
+
 ## 参考资料
 
 1. [Alferd官方文档](https://www.alfredapp.com/help/features/)
