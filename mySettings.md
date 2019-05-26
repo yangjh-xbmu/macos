@@ -31,3 +31,11 @@ export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087
 ## 键盘
 
 键盘修饰键中“ctrl”与“command”交换。
+
+## 软件推荐
+
+1. 休息提醒工具 Stretchly，开源工具，界面简洁，可定制性强，能切实解决长时间用电脑中忘记活动的问题。
+
+```bash
+brew cask install stretchly
+```

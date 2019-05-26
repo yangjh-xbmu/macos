@@ -1,6 +1,6 @@
-# Alferd
+# Alfred
 
-Alferd是一款提高效率的工具，调用快捷键为`option+space`，除了默认功能外，利用其提供的workflow，能大大减少鼠标点击次数，所以有必要培养使用Alferd的使用习惯，能用Alferd办的事就不要点鼠标，这样非常有助于心流的保持。
+Alfred 是一款提高效率的工具，调用快捷键为`option+space`，除了默认功能外，利用其提供的 workflow，能大大减少鼠标点击次数，所以有必要培养使用 Alfred 的使用习惯，能用 Alfred 办的事就不要点鼠标，这样非常有助于心流的形成和保持。
 
 ## 常用基础功能
 
@@ -14,11 +14,11 @@ Alferd是一款提高效率的工具，调用快捷键为`option+space`，除了
 
 以上三种检索方式基本上可以找到任何你想找的文件。
 
-快速定位文件，甚至不用加关键词，直接空格就可以表示`find`命令。不过需要说明的是，alferd需要你手工添加哪些目录是需要检索的。
+快速定位文件，甚至不用加关键词，直接空格就可以表示`find`命令。不过需要说明的是，Alfred 需要你手工添加检索目录。
 
-### 使用bing进行搜索
+### 使用 Bing 进行搜索
 
-呼出后，在搜索框中键入`bing 要搜索内容`即可打开默认浏览器进行bing搜索。
+呼出后，在搜索框中键入`bing 要搜索内容`即可打开默认浏览器进行 Bing 搜索。
 
 ### 打开特定网址
 
@@ -52,19 +52,19 @@ Alferd是一款提高效率的工具，调用快捷键为`option+space`，除了
 
 默认情况下，剪贴板功能是关闭的，需要手工开启，设定快捷键之后，即可对剪贴板的历史记录进行操作。
 
-## 常用Workflow
+## 常用 Workflow
 
-Workflow功能是付费项目，需要购买许可证才能使用。但真正让Alferd成为让人爱不释手的效率工具的是其开创性的Workflow功能。众多的Workflow可以让人从繁琐恼人的鼠标点击操作中解脱出来。
+Workflow 功能是付费项目，需要购买许可证才能使用。但真正让 Alfred 成为让人爱不释手的效率工具的是其开创性的 Workflow 功能。众多的 Workflow 可以让人从繁琐恼人的鼠标点击操作中解脱出来。
 
 ### Open with Sublime Text
 
-在Sublime Text 3 编辑器中打开当前文件或文件夹`os`，或者搜索并打开文件或者文件夹`fos`。
+在 Sublime Text 3 编辑器中打开当前文件或文件夹`os`，或者搜索并打开文件或者文件夹`fos`。
 
 Triggers：os/fos
 
 ### TerminalFinder
 
-打开当前Finder目录到终端Terminal，或者在终端Terminal打开当前Finder目录。
+打开当前 Finder 目录到终端 Terminal，或者在终端 Terminal 打开当前 Finder 目录。
 
 Triggers：
 
@@ -83,17 +83,25 @@ tf: Terminal -> Finder
 
 ### dash
 
-dash是一款管理技术文档的软件，能将众多技术手册下载到本地进行阅读和搜索，它还能很好得和众多软件进行整合，比如Alferd。在Alferd中的用法有两种：一种为`dash html:form`，这种形式不需要安装workflow；另一种`html form`需要安装workflow后才能使用。
+dash 是一款管理技术文档的软件，能将众多技术手册下载到本地进行阅读和搜索，它还能很好得和众多软件进行整合，比如 Alfred。在 Alfred 中的用法有两种：一种为`dash html:form`，这种形式不需要安装 workflow；另一种`html form`需要安装 workflow 后才能使用。
 
 ### markdown-image-alfred
 
-复制本地图片或截图，快速上传图片到七牛云空间，并获取Markdown格式的图片地址。
+复制本地图片或截图，快速上传图片到七牛云空间，并获取 Markdown 格式的图片地址。
 
 [下载地址](https://github.com/kaito-kidd/markdown-image-alfred/releases)
 
-下载后首先在alferd中设置快捷键（比如：option + command + v）。第一次运行时需要设置七牛的相关参数，该流程会自动打开配置文件，用户填入配置即可，七牛云的配置信息都在文件中有详细说明。
+下载后首先在 Alfred 中设置快捷键（比如：option + command + v）。第一次运行时需要设置七牛的相关参数，该流程会自动打开配置文件，用户填入配置即可，七牛云的配置信息都在文件中有详细说明。
+
+### 汉语词语查询及 Anki 制卡
+
+该插件是我自己开发的，利用 Alferd3 和 AnkiConnect，提高制作 Anki 汉语生词卡的效率。
+
+[下载地址](https://github.com/yangjh2019/dict2ankicard/releases)
+
+下载后需要设置快捷键和 Anki 信息。
 
 ## 参考资料
 
-1. [Alferd官方文档](https://www.alfredapp.com/help/features/)
-1. [workflow库](http://www.packal.org/)
+1. [Alfred 官方文档](https://www.alfredapp.com/help/features/)
+1. [workflow 库](http://www.packal.org/)
