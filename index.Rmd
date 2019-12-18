@@ -1,0 +1,30 @@
+---
+title: "Mac 操作系统使用"
+author: "杨志宏"
+date: "修订于：`r Sys.Date()`"
+site: bookdown::bookdown_site
+output:
+  html_document:
+    df_print: paged
+bibliography:
+- book.bib
+- packages.bib
+description: 记录使用Mac OS中遇到的问题
+documentclass: ctexbook
+geometry:
+- a4paper
+- tmargin=2.5cm
+- bmargin=2.5cm
+- lmargin=3.5cm
+- rmargin=2.5cm
+github-repo: yangjh-xbmu/macos
+link-citations: yes
+lof: yes
+lot: yes
+colorlinks: yes
+biblio-style: GBT7714-2005
+---
+
+# 前言 {-}
+
+记录使用Mac OS中遇到的问题。
