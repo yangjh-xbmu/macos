@@ -79,3 +79,23 @@ brew install tree
 brew install openssl
 brew install python
 ```
+
+## 设置国内源
+
+### 替换现有上游
+
+```bash
+git -C "$(brew --repo)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
+git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
+git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask.git
+brew update
+```
+
+### 复原为原始设置
+
+```bash
+git -C "$(brew --repo)" remote set-url origin https://github.com/Homebrew/brew.git
+git -C "$(brew --repo homebrew/core)" remote set-url origin https://github.com/Homebrew/homebrew-core.git
+git -C "$(brew --repo homebrew/cask)" remote set-url origin https://github.com/Homebrew/homebrew-cask.git
+brew update
+```

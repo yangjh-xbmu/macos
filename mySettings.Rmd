@@ -39,3 +39,16 @@ export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087
 ```bash
 brew cask install stretchly
 ```
+
+## 选择显卡
+
+Mac 有内置显卡和独立显卡，独立显卡功耗较大，可以关闭（关闭后就无法使用多屏功能了）。
+
+```bash
+#强制使用核显(集成显卡)
+sudo pmset -a GPUSwitch 0
+#强制使用独立显卡
+sudo pmset -a GPUSwitch 1
+#自动切换
+sudo pmset -a GPUSwitch 2
+```
